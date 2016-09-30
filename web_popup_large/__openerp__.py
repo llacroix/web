@@ -2,11 +2,7 @@
 ##############################################################################
 #
 #    OpenERP, Open Source Management Solution
-#    This module copyright (C) 2014 Therp BV (<http://therp.nl>).
-#    copyright (C) 2015 Leonardo Donelli @ MONKSoftware
-#
-#    Snippet from https://github.com/hsd/listview_images
-#    Copyright (C) 2013 Marcel van der Boom <marcel@hsdev.com>
+#    This module copyright (C) 2013 Therp BV (<http://therp.nl>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,20 +19,17 @@
 #
 ##############################################################################
 {
-    'name': 'Show images in tree views',
-    'version': '8.0.1.1.0',
-    'author': 'Therp BV, MONK Software, Odoo Community Association (OCA)',
-    'website': 'https://github.com/OCA/Web',
-    'license': 'AGPL-3',
-    'category': 'Web',
-    'depends': [
-        'web',
-    ],
-    'qweb': [
-        'static/src/xml/widget.xml',
-    ],
-    'data': [
-        'view/assets.xml',
-    ],
+    "name": "Large pop-ups in web client",
+    "version": "7.0.1.0",
+    "author": "Therp BV,Odoo Community Association (OCA)",
+    "category": 'Usability',
+    "description": """
+Pop-ups in the web client have a width of 900 pixels by default.
+This module changes this default width to 95% of the parent window.
+    """,
+    'website': 'https://launchpad.net/web-addons',
+    'depends': ['web'],
+    "license": 'AGPL-3',
+    "js": ['static/src/js/web_popup_large.js'],
     'installable': False,
 }

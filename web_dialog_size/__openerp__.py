@@ -28,15 +28,11 @@
         A module that lets the user expand a
         dialog box to the full screen width.""",
 
-    'author': "ACSONE SA/NV, "
-              "Serv. Tecnol. Avanzados - Pedro M. Baeza, "
-              "Therp BV, "
-              "Odoo Community Association (OCA), "
-              "Siddharth Bhalgami",
-
+    'author': "ACSONE SA/NV,Odoo Community Association (OCA)",
     'website': "http://acsone.eu",
+
     'category': 'web',
-    'version': '9.0.1.0.0',
+    'version': '8.0.0.1.0',
     'license': 'AGPL-3',
 
     'depends': [
@@ -48,5 +44,5 @@
     'data': [
         'view/qweb.xml',
     ],
-    'installable': True,
+    'installable': False,
 }

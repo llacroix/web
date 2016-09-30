@@ -25,7 +25,6 @@ Contributors
 ------------
 
 * Holger Brunn <hbrunn@therp.nl>
-* Siddharth Bhalgami <siddharth.bhalgami@gmail.com>
 
 Maintainer
 ----------
