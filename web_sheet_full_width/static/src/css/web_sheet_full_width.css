@@ -1,14 +1,7 @@
-.o_form_view .o_form_sheet_bg .o_form_sheet
-{
-    width: auto !important;
-    margin: 15px;
-}
-
 .openerp .oe_form_sheet_width
 {
     max-width: none;
 }
-
 .openerp .oe_form_sheetbg
 {
     padding: 16px;

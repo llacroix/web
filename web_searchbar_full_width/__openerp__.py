@@ -20,10 +20,9 @@
 ##############################################################################
 {
     "name": "Full width searchbar",
-    "version": "9.0.1.0.0",
+    "version": "8.0.1.0.0",
     "author": "Therp BV, "
-              "Odoo Community Association (OCA), "
-              "Siddharth Bhalgami",
+              "Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "category": "Tools",
     "summary": "Show search bar in full screen width",
@@ -33,5 +32,15 @@
     "data": [
         'views/templates.xml',
     ],
-    'installable': True,
+    "qweb": [
+        'static/src/xml/web_searchbar_full_width.xml',
+    ],
+    "test": [
+    ],
+    "auto_install": False,
+    'installable': False,
+    "application": False,
+    "external_dependencies": {
+        'python': [],
+    },
 }
